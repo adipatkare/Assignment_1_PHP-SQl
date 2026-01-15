@@ -125,12 +125,162 @@
                 <td>$3.00</td>
             </tr>
 
-            <!-- rest of code remains EXACTLY the same -->
+            <tr>
+                <td rowspan="2">Soft TuteDude</td>
+                <td>Soft (Beef)</td>
+                <td>2</td>
+                <td>$3.50</td>
+                <td>4</td>
+                <td>$6.50</td>
+            </tr>
 
+            <tr>
+                <td>Soft (Veggie)</td>
+                <td>2</td>
+                <td>$3.00</td>
+                <td>4</td>
+                <td>$5.50</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Combos</td>
+                <td>2 Crunchy + Drink</td>
+                <td colspan="4">$4.50</td>
+            </tr>
+
+            <tr>
+                <td>
+                    2 Soft + Drink
+                    <br><br>
+                    <em>Combo Meals Nutrition Facts</em>
+                    <table border="1" cellpadding="5" cellspacing="0">
+                        <tr>
+                            <th>Item</th>
+                            <th>Calories</th>
+                            <th>Sugar</th>
+                        </tr>
+                        <tr>
+                            <td>Soft Taco</td>
+                            <td>200 kcal</td>
+                            <td>2 g</td>
+                        </tr>
+                        <tr>
+                            <td>Drink</td>
+                            <td>120 kcal</td>
+                            <td>25 g</td>
+                        </tr>
+                        <tr>
+                            <th>Total</th>
+                            <th>320 kcal</th>
+                            <th>27 g</th>
+                        </tr>
+                    </table>
+                </td>
+                <td colspan="2">$5.00</td>
+                <td colspan="2">N/A</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Extras</td>
+                <td>Chips & Salsa</td>
+                <td colspan="4">$2.00</td>
+            </tr>
+
+            <tr>
+                <td>Guacamole</td>
+                <td colspan="4">$1.50</td>
+            </tr>
         </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="6">
+                    <strong>Average Meal Price Range:</strong> $2.00 – $6.50
+                </td>
+            </tr>
+        </tfoot>
     </table>
 </section>
 
+        <hr>
+
+        <!-- ========= TRIVIA SECTION (ASIDE + DETAILS/SUMMARY) ========= -->
+        <section id="trivia">
+            <h2>Taco Trivia</h2>
+
+            <aside>
+                <details>
+                    <summary>When did TuteDude first appear in the United States?</summary>
+                    <p>
+                        HTML was first created by Tim Berners-Lee in 1991. 
+                        It has evolved into today's powerful HTML5 standard.
+                    </p>
+                </details>
+            </aside>
+        </section>
+
+        <hr>
+
+        <!-- ========= EXTRAS SECTION (AUDIO + VIDEO) ========= -->
+        <section id="extras">
+            <h2>Media Fun</h2>
+
+            <h3>Listen to Taco Music</h3>
+            <audio controls>
+                <source src=".\assets\taco-bell-bong-sfx.mp3" type="audio/mpeg">
+            </audio>
+
+            <h3>Watch Taco Video</h3>
+            <video width="400" controls>
+                <source src=".\assets\Taco_video.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <hr>
+
+        <!-- ========= FEEDBACK FORM ========= -->
+        <section id="feedback">
+            <h2>Give us Your Feedback</h2>
+            <form>
+                <fieldset>
+                    <legend>Your Info</legend>
+
+                    <label>Name: </label>
+                    <input type="text" name="name" required><br><br>
+
+                    <label>Email: </label>
+                    <input type="email" name="email" required><br><br>
+
+                    <label>Course Interested: </label>
+                    <select name="course">
+                        <option>Crunchy</option>
+                        <option>Non-Crunchy</option>
+                    </select><br><br>
+
+                    <label>Your Message:</label><br>
+                    <textarea name="message" rows="5" cols="40"></textarea><br><br>
+
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+
     </main>
+
+    <hr>
+
+    <!-- ========================= FOOTER ========================= -->
+    <footer>
+        <h2>Contact Us</h2>
+        <address>
+            TuteDude <br>
+            123 Taco Street<br>
+            Taco Town, TX 75000<br>
+            Contact us at:<a href="mailto:abc@example.com">info@tutedude.com</a>
+        </address>
+
+        <p>© <time datetime="2025">2025</time> TuteDude. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
